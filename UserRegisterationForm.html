@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registeration Page</title>
+    <link rel="stylesheet" href="UserRegisterationForm.css">
+</head>
+
+<body>
+    <!-- 
+Create a User Registeration Page with following fields 
+Name : HarshVardhan Manoj Kakade
+Email :Harhk2296@gmail.com
+Mobile :9834547025
+City :Dhondewadi,Karad,Satara
+State :Maharashtra
+Country :India
+     -->
+
+    <br>
+    <form action="submit.html">
+        <div id="div1" class="all">
+
+            <h1 id="top">Registeration Page</h1>
+            <h3>Fill out the form carefully for registeration</h3>
+            <div id="name">
+                <label for="fname" id="fname">First Name</label>
+                <input type="text" name="fnametxt" id="fnametxt" required>
+                <br><br>
+                <label for="lname" id="lname">Last Name</label>
+                <input type="text" name="lnametxt" id="lnametxt" required>
+
+                <br><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" pattern="[0-9][a-z][A-Z]{}-[@]{1}-[gmail]-[.]{1}-[com]{3}"
+                    required>
+
+                <br><br>
+                <label for="phone">Mobile</label>
+                <input type="tel" name="phoneid" id="phoneid" pattern="[0-9]{11}" required>
+                <br><br>
+                <label for="city" id="city">City</label>
+                <select name="city" id="city" class="selectCity">
+                    <option value="" disabled>Select Your City</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Amaravati">Amaravati</option>
+                    <option value="Itanagar">Itanagar</option>
+                    <option value="Dispur">Dispur</option>
+                    <option value="Patna">Patna</option>
+                    <option value="Raipur">Raipur</option>
+                    <option value="Panaji">Panaji</option>
+                    <option value="Gandhinagar">Gandhinagar</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Shimla">Shimla</option>
+                    <option value="Ranchi">Ranchi</option>
+                    <option value="Bengaluru">Bengaluru</option>
+                    <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+                    <option value="Bhopal">Bhopal</option>
+                    <option value="Imphal">Imphal</option>
+                    <option value="Shillong">Shillong</option>
+                    <option value="Aizawl">Aizawl</option>
+                    <option value="Kohima">Kohima</option>
+                    <option value="Bhubaneswar">Bhubaneswar</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Jaipur">Jaipur</option>
+                    <option value="Gangtok">Gangtok</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Agartala">Agartala</option>
+                    <option value="Lucknow">Lucknow</option>
+                    <option value="Dehradun">Dehradun</option>
+                    <option value="Kolkata">Kolkata</option>
+                </select>
+                <br><br>
+                <label for="State">State</label>
+                <select name="State" id="State" class="selectState">
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chhattisgarh ">Chhattisgarh</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka ">Karnataka </option>
+                    <option value="Kerala ">Kerala </option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Manipur ">Manipur </option>
+                    <option value="Meghalaya ">Meghalaya </option>
+                    <option value="Mizoram ">Mizoram </option>
+                    <option value="Nagaland ">Nagaland </option>
+                    <option value="Odisha ">Odisha </option>
+                    <option value="Odisha ">Odisha </option>
+                    <option value="Rajasthan ">Rajasthan </option>
+                    <option value="Sikkim">Sikkim </option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Telangana ">Telangana </option>
+                    <option value="Tripura ">Tripura </option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Uttarakhand ">Uttarakhand </option>
+                    <option value="West Bengal">West Bengal</option>
+                </select>
+                <br><br>
+                <label for="Country">Country</label>
+                <select name="Country" id="Country">
+                    <option value="India">INDIA</option>
+                </select>
+                <br>
+                <br>
+                <input type="reset" name="reset" id="reset">
+                <input type="submit" name="submit" id="submit">
+
+    </form>
+
+    <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias saepe facilis possimus odit, consectetur nesciunt, pariatur repellat ducimus dicta impedit accusantium voluptate dolorem commodi ex sunt! Error, consequatur quidem? Id.
+    Itaque necessitatibus laborum molestias. Nulla molestiae rerum error soluta, ut asperiores quisquam at, autem aperiam officiis consequatur, voluptate pariatur! Tenetur, possimus. Non, sit tempore! Fuga officiis unde rem ab cumque?
+    Placeat quas nemo delectus expedita consectetur autem magnam molestias officia provident, distinctio doloribus labore debitis animi dolore et commodi nesciunt! Deleniti hic cumque culpa sint consequuntur, ipsam reprehenderit deserunt labore.
+    Ducimus, nihil. Sequi magnam eveniet mollitia nulla vel! Veniam, error aspernatur. Temporibus quo necessitatibus, doloribus, cum, nostrum perspiciatis porro excepturi placeat recusandae laboriosam dignissimos explicabo adipisci error sed omnis quod.
+    Voluptatum architecto repellat culpa praesentium, adipisci non quasi ipsa quidem autem asperiores exercitationem. Quas enim tempore libero nesciunt harum nisi, sunt rerum molestias iure vero maiores tenetur sapiente voluptate praesentium.
+    Minus vel dolores illum repellat praesentium est explicabo, incidunt commodi provident culpa. Minus corporis sequi temporibus eos eveniet. Quae velit enim vitae deleniti ut totam ipsa obcaecati autem omnis nisi!
+    Voluptas facilis, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae at libero ipsum repudiandae minima eveniet aliquam deserunt veniam qui fugit. Reprehenderit necessitatibus explicabo excepturi placeat corrupti sit ipsum odio cupiditate.
+    Nesciunt fugiat ratione perferendis mollitia enim vitae reprehenderit perspiciatis fuga necessitatibus, sunt illum! Dignissimos tempore delectus repudiandae nihil porro quam molestias quidem, reprehenderit commodi, rem accusantium! Facilis qui autem quae.
+    Voluptates voluptatum neque numquam impedit unde eligendi facilis! Fugiat odio ex ea explicabo id perferendis ducimus atque voluptates deleniti velit recusandae, vero, at optio tenetur, neque quam ab sint vitae!
+    Libero ut, veniam beatae, soluta quidem impedit expedita nostrum debitis aliquam non omnis modi perferendis, accusamus reiciendis quam deserunt sequi! Consequatur pariatur accusantium dolor consequuntur ipsam temporibus eaque! Itaque, quis.                                                                                                       est fugiat consectetur distinctio exercitationem aspernatur nostrum facere tempore ut incidunt consequuntur sint repellat. Voluptas, in. Mollitia ipsum assumenda sed quis reiciendis fuga odit aperiam labore veritatis quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, magnam ratione veritatis necessitatibus aliquam deserunt beatae qui impedit similique magni doloribus voluptatum temporibus harum debitis, ullam adipisci molestias quo tenetur.
+    Est laboriosam incidunt quia, atque numquam ab quam dolore repellat recusandae ratione animi veniam nobis voluptatum ut nesciunt, ducimus, sunt distinctio. Aut labore nisi blanditiis dignissimos laudantium soluta ab sed.
+    Asperiores ab rem consequatur consectetur, nesciunt dignissimos natus, eveniet vero necessitatibus culpa quos quaerat ad numquam assumenda ut, autem explicabo. Nam quibusdam magnam eos sequi nemo numquam inventore quia delectus?
+    Dolorum optio nisi veniam voluptatem perspiciatis error voluptates nobis neque voluptatibus modi autem odit asperiores accusantium quidem animi possimus illum, alias facere expedita et tempora quae qui. Autem, harum quia. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt excepturi veritatis sint porro quaerat tempora fugiat, quo dicta est! Ipsa eos, fugiat quod debitis ducimus modi. Quibusdam enim consequatur tempore?
+    Itaque aliquid voluptatem, totam, cum magnam unde pariatur et obcaecati accusamus qui deleniti aliquam eius eos magni molestiae veritatis ipsa facere corporis! Quisquam quos aliquid doloribus modi rerum? Animi, vel.
+    Voluptas omnis accusamus, tenetur doloribus neque quam dolor natus quos! Sed consequuntur nam quia assumenda, aspernatur praesentium quis temporibus sit accusantium ea neque ratione? Iste aliquam doloremque voluptate voluptas pariatur.
+    Itaque culpa laboriosam rem. Non nemo, delectus ratione, vitae odit dolorem harum ducimus deleniti assumenda, minus doloribus nisi placeat quas aliquam porro tempore excepturi officia voluptate voluptates reprehenderit. Vel, dolorum.
+    Culpa praesentium corporis provident. Saepe est sunt sit delectus excepturi consequuntur magni, sed adipisci. Facere quisquam eveniet exercitationem provident eligendi blanditiis illum, incidunt odit vero. Soluta error cum nemo alias.
+    Nesciunt, quos numquam laborum tempore earum nisi fugiat harum maxime soluta aperiam voluptate totam aliquam dicta quo impedit modi veniam obcaecati sit at incidunt illo mollitia. Nulla consequuntur exercitationem quae?
+    Quo odio, quasi magnam sed rerum cupiditate itaque similique mollitia esse? Nemo quas ex ut ducimus totam repudiandae officia cum perspiciatis doloribus aliquam. Nesciunt, repellendus at. Perferendis repellat laudantium tempora.</pre>
+    <a href="#top">Top</a>
+    </div>
+    </div>
+</body>
+
+</html>

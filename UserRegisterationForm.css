@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(162, 210, 255);
+    font-family: cursive;
+}
+
+h1 {
+    color: rgb(30, 94, 158);
+}
+
+h3 {
+    color: brown;
+}
+
+/* #fname {
+    color: darkblue;
+}
+
+#lname {
+    color: darkblue;
+} */
+
+
+.all {
+    color: darkblue;
+    text-align: center;
+
+}
+
+.selectCity {
+    font-family: cursive;
+    color: darkslateblue;
+    background-color: antiquewhite;
+    border-radius: 5%;
+    border-spacing: 20mm;
+}
+
+.selectState {
+    font-family: cursive;
+    color: darkslateblue;
+    background-color: antiquewhite;
+    border-radius: 5%;
+    border-spacing: 20mm;
+}
+
+#Country {
+    font-family: cursive;
+    color: darkslateblue;
+    background-color: antiquewhite;
+    border-radius: 5%;
+    border-spacing: 20mm;
+}
+
+#reset {
+    font-family: cursive;
+    color: darkslateblue;
+    background-color: antiquewhite;
+    border-radius: 5%;
+    border-spacing: 20mm;
+}
+
+#submit {
+    font-family: cursive;
+    color: darkslateblue;
+
+}
+
+#fnametxt {
+    font-family: cursive;
+    color: darkslateblue;
+    background-color: antiquewhite;
+    border-radius: 5%;
+    border-spacing: 20mm;
+}
+
+#lnametxt {
+    font-family: cursive;
+    color: darkslateblue;
+    background-color: antiquewhite;
+    border-radius: 5%;
+    border-spacing: 20mm;
+
+}
+
+#email {
+    font-family: cursive;
+    color: darkslateblue;
+    background-color: antiquewhite;
+    border-radius: 5%;
+    border-spacing: 20mm;
+}
+
+#phoneid {
+    font-family: cursive;
+    color: darkslateblue;
+    background-color: antiquewhite;
+    border-radius: 5%;
+    border-spacing: 20mm;
+}
